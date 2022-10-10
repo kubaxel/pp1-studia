@@ -1,0 +1,5 @@
+imie=input('Jak sie nazywasz?: ')
+nazwisko=input('Jak masz na nazwisko?: ')
+print(imie, nazwisko)
+print(imie+" "+nazwisko)
+print(f"Imie {imie} Nazwisko {nazwisko}")
