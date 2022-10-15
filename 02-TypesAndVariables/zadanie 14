@@ -1,0 +1,5 @@
+celsjusz=int(input('Stopnie celsjusza: '))
+fahrenheity=float(32+1.8*celsjusz)
+kelwiny=float(celsjusz+273.15)
+print(f'W kelwinach bedzie to: {kelwiny}')
+print(f'W fahrenheitach bedzie to: {fahrenheity}')

@@ -1,0 +1,4 @@
+cyfra1=int(input('ile masz lat?: '))
+cyfra2=int(input('Dodaj jakas cyfre?: '))
+
+print(f'Bedziesz mial: {cyfra1+cyfra2} lat za {cyfra2} lat')

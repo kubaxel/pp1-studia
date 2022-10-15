@@ -1,0 +1,16 @@
+# Calculation of the area and circumference of a circle
+
+# determine radius and PI
+radius=int(5)
+PI=float(3.14)
+
+# calculate area
+area=(PI*radius)
+
+# calculate circumference 
+circumference=(2*PI*radius)
+
+# display results 
+print(f'Obwod wynosi: {circumference}')
+print(f'Pole wynosi: {area}')
+

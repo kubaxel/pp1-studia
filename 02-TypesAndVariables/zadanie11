@@ -1,0 +1,5 @@
+name=('Kuba')
+Age=20
+Height=175
+print(f'My name is {name}, I\'m {Age} and my height is {Height}cm')
+

@@ -1,0 +1,2 @@
+print('The value is {liczba}, and its second power is {kwadrat_liczby}'.format(liczba=5, kwadrat_liczby=(5**2)))
+
