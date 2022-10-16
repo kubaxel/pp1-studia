@@ -1,0 +1,16 @@
+wzrostcm=int(input('Ile masz wzrostu w centymetrach?: '))
+print(f'Twoj wzrost w cm wynosi: {wzrostcm} centymetrow')
+
+#1 stopa=30,48cm
+
+nacale=round(wzrostcm/2.54,2)
+
+
+stopy=nacale//12
+
+
+reszta=nacale%12
+
+
+print(f'Twoj wzrost wynosi {int(stopy)} stóp i {int(reszta)} cali')
+

@@ -1,0 +1,2 @@
+for liczby in range(20):
+    print(liczby+1)

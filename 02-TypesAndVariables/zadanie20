@@ -1,0 +1,9 @@
+import random
+wynik1=random.randrange(1,7,1)
+wynik2=random.randrange(1,7,1)
+wynik3=random.randrange(1,7,1)
+print(wynik1, wynik2, wynik3)
+suma=wynik1+wynik2+wynik3
+print(suma)
+
+

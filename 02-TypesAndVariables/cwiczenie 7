@@ -1,0 +1,27 @@
+suma=0
+ilosc=0
+najwieksza=0
+najmniejsza=0
+while True:
+    zbior=input('Daj liczbe')
+    if zbior=='gotowe':
+        break
+    try:
+        y=int(zbior)
+        z=int(zbior)
+    except:
+        print('daj liczbe nie slowa')
+        continue
+    if najwieksza<y:
+        najwieksza=y
+    if najmniejsza<y and najwieksza>najmniejsza:
+        najmniejsza=z
+    ilosc=ilosc+1
+    suma=suma+y
+    srednia=suma/ilosc
+
+print(f'najmniejsza: {najmniejsza}')
+print(f'Najwieksza liczba wpisana to:{najwieksza} ')
+print(f'Lacznie wpisales {ilosc} cyfr')
+print(f'Suma wpisanych cyfr wynosi: {suma}')
+print(f'Srednia wpisanych cyfr wynosi: {srednia}')

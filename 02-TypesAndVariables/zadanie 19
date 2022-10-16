@@ -1,0 +1,5 @@
+print('Podaj ponizsze dane by wyliczyc swoje BMI:')
+masa=float(input('Ile wazysz?: '))
+wzrost=float(input('Ile masz wzrostu w metrach?: '))
+BMI=float(round(masa/wzrost**2, 2))
+print(f'Twoje BMI wynosi: {BMI}')

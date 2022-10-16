@@ -1,0 +1,3 @@
+x='Practice makes perfect'
+for e in range(5567):
+    print(x)

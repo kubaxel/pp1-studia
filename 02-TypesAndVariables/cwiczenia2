@@ -1,0 +1,18 @@
+try:
+    wartosc=float(input('Wprowadz Twoja wartosc miedzy 0.0 a 1.0: \n'))
+    if wartosc>=0.9 and wartosc<=1.0:
+        print('Twoja ocena to: 5,0')
+    elif wartosc<0.9 and wartosc>=0.8:
+        print('Twoja ocena to: 4,5')
+    elif wartosc<0.8 and wartosc>=0.7:
+        print('Twoja ocena to 4,0')
+    elif wartosc<0.7 and wartosc>=0.6:
+        print('Twoja ocena to: 3,5')
+    elif wartosc<0.6 and wartosc>=0.5:
+        print('Twoja ocena to 3,0')
+    elif wartosc>1 or wartosc<0:
+        print('Nieprawidlowa wartosc')
+    else:
+        print('Twoja ocena to 2.0')
+except:
+    print('Wartosc Nieprawidlowa')

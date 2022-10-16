@@ -1,0 +1,10 @@
+bok1=int(input('Wpisz dlugosc pierwszego boku: '))
+bok2=int(input('Wpisz dlugosc drugiego boku: '))
+bok3=int(input('Wpisz dlugosc trzeciego boku: '))
+
+zmiennas=((bok1+bok2+bok3)/2)
+
+
+heron=int((zmiennas*(zmiennas-bok1)*(zmiennas-bok2)*(zmiennas-bok3))**0.5)
+
+print(f'Pole twojego trojkata wynosi: {heron}cm')

@@ -1,0 +1,1 @@
+liczba=int(input('wpisz jakas liczbe'))

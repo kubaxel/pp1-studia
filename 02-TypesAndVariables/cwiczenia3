@@ -1,0 +1,7 @@
+godziny=int(input('Ile godzin pracujesz: '))
+stawka=int(input('ile zarabiasz na godzine: '))
+def computepay(a,b):
+    wynagrodzenie=a*b
+    return wynagrodzenie
+x=computepay(godziny,stawka)
+print(x)

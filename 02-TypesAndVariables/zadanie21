@@ -1,0 +1,7 @@
+import random
+rzut=random.randrange(1,7,1)
+guess=int(input('Sprawdz swoje szczescie:) '))
+if guess==rzut:
+    print('Brawo, wygrales z komputerem')
+else:
+    print('Niestety, nie udalo Ci sie zgadnac:(')

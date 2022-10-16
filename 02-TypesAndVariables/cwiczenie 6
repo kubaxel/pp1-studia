@@ -1,0 +1,17 @@
+suma=0
+ilosc=0
+while True:
+    zbior=input('Daj liczbe')
+    if zbior=='gotowe':
+        break
+    try:
+        y=int(zbior)
+    except:
+        print('daj liczbe nie slowa')
+        continue
+    ilosc=ilosc+1
+    suma=suma+y
+    srednia=suma/ilosc
+print(f'Lacznie wpisales {ilosc} cyfr')
+print(f'Suma wpisanych cyfr wynosi: {suma}')
+print(f'Srednia wpisanych cyfr wynosi: {srednia}')

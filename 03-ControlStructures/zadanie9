@@ -1,0 +1,9 @@
+liczba=int(input('Wprowadz liczbe'))
+liczba1=int(input('Wprowadz liczbe'))
+
+if liczba>0 and liczba1>0:
+    print('Obie liczby sa dodatnie')
+elif liczba>0 or liczba1>0:
+    print('Chociaz jedna z tych liczb jest dodatnia')
+else:
+    print('Zadna z tych liczb nie jest dodatnia')

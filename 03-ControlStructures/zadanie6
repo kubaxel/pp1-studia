@@ -1,0 +1,5 @@
+x=int(input('Wpisz z jaka predkoscia sie poruszasz: '))
+if x<=130 and x>0:
+    print('Poruszasz sie z predkoscia dozwolona')
+else:
+    print('Poruszasz sie z predkoscia niedozwolona')

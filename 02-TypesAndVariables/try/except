@@ -1,0 +1,12 @@
+try:
+    godziny=int(input('Ile godzin pracujesz?: \n'))
+    zl=int(input('Ile zarabiasz na godzine?: \n'))
+    if godziny>=40:
+        print(1.5*zl*godziny)
+    else:
+        print(zl*godziny)
+
+except:
+    print('Musisz wprowadzic liczbe!!!!')
+
+
