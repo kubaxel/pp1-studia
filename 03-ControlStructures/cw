@@ -1,0 +1,7 @@
+x=input('Podaj haslo')
+while len(x)<8:
+    print('Podaj haslo na przynajmniej 8 znakow')
+    y=input('Podaj haslo')
+    if len(x)>8:
+        break
+print('ok')
