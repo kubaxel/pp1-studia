@@ -1,5 +1,8 @@
-liczba=int(input('Wpisz swoja liczbe'))
-if liczba%2==0:
-    print('Parzysta')
-else:
-    print('Nieparzysta')
+a=int(input('Bok a: '))
+b=int(input('Bok b: '))
+c=int(input('Bok c: '))
+
+if a==b and b==c:
+    print('Trojkat rownoramienny')
+elif a==b or a==c or b==c:
+    

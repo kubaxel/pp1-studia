@@ -1,0 +1,3 @@
+x=int(input("Wprowadz pierwsza liczbe"))
+y=int(input("Wprowadz druga liczbe"))
+print(y,x)

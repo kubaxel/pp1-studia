@@ -1,0 +1,5 @@
+x=int(input("Wprowadz x"))
+y=int(input("Wprowadz y"))
+
+if x>0 and y>0:
+    print(f'')
