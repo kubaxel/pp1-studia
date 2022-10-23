@@ -1,4 +1,4 @@
 ile=0
-for liczby in range(100,150,1):
+for _ in range(100,150,1):
     ile=ile+1
 print(ile)

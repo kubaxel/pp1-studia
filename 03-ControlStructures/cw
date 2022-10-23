@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 b=float(input('Wprowadz swoje punkty'))
 
 def computegrade(a):
@@ -18,3 +19,12 @@ def computegrade(a):
 
 c=computegrade(b)
 print(c)
+=======
+x=input('Podaj haslo')
+while len(x)<8:
+    print('Podaj haslo na przynajmniej 8 znakow')
+    y=input('Podaj haslo')
+    if len(x)>8:
+        break
+print('ok')
+>>>>>>> 88b78793a4ebc99c9450e9548c82e1da5a3dd4a4
