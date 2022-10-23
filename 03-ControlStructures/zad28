@@ -1,12 +1,9 @@
-x=int(input('Wprowadz jak dlugi chcesz otrzymac ciag'))
+n=50
+a=0
+b=1
 
-for y in range(1,x):
-    for m in range(y):
-        if x==0:
-            print(0)
-        if x==1:
-            print("1")
-        if x==2:
-            print(2)
-        else:
-            print((x-1)+(x-2))
+for i in range(2,n):
+    c=a+b
+    a=b
+    b=c
+    print(c,end=' ')

@@ -1,0 +1,4 @@
+university=str(input("wprowadz co chcesz: "))
+
+for x in university:
+    print(x, end=" ")

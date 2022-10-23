@@ -1,0 +1,12 @@
+pieniadz=int(input("Wprowadz kwote w PLN"))
+
+pieciozlotowki=pieniadz//5
+print(f"5zl: {pieciozlotowki}")
+
+reszta=pieniadz%5
+
+dwuzlotowki=reszta//2
+print(f"2zl: {dwuzlotowki}")
+
+jeden=reszta%2
+print(f"1zl: {jeden}")

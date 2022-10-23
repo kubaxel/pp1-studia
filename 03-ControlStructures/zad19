@@ -1,0 +1,8 @@
+pies=float(input("Wprowadz wiek psa: \n"))
+
+if pies<=2 and pies>0:
+    x=float(pies*10.5)
+    print(f"Wiek w ludzkich latach wynosi:{x}")
+elif pies>2:
+    y=float(pies*4+21)
+    print(f"Wiek w ludzkich latach wynosi {y}")

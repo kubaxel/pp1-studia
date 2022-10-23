@@ -1,0 +1,4 @@
+x=int(input("Wprowadz liczbe ktora chcesz przemnozyc: "))
+for y in range(1,11):
+    z=x*(y)
+    print(f'{x}*{y}={z}')

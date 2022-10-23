@@ -14,7 +14,7 @@ def computegrade(a):
         print('F')
     else:
         print('Nieprawidlowa wartosc')
-    
+    return a
 
 c=computegrade(b)
 print(c)
