@@ -1,0 +1,14 @@
+pin=("0805")
+
+
+for x in range(1,4):
+    t=input("Wprowadz pin")
+    if t==pin:
+        print("Sukces")
+        break
+    else:
+        print("proba nieudana")
+    if x==3:
+        print("Karta zablokowana")
+        
+    

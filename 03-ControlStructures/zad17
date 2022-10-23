@@ -1,5 +1,18 @@
-x=int(input("Wprowadz x"))
-y=int(input("Wprowadz y"))
+x=int(input("Wprowadz x: "))
+y=int(input("Wprowadz y: "))
 
 if x>0 and y>0:
-    print(f'')
+    print(f"Punkt P({x},{y}) nalezy do pierwszej polowki")
+elif x<0 and y>0:
+    print(f"Punkt P({x},{y}) nalezy do drugiej polowki")
+elif x<0 and y<0:
+    print(f"Punkt P({x},{y}) nalezy do trzeciej polowki")
+elif x>0 and y<0:
+    print(f"Punkt P({x},{y}) nalezy do czwartej polowki")
+elif x==0 and y>0 or y<0:
+    print(f"Punkt P({x},{y}) lezy na osi OX na y={y}")
+elif y==0 and y>0 or y<0:
+    print(f"Punkt P({x},{y}) lezy na osi OY w x={x}")
+elif x==0 and y==0:
+    print(f"Punkt P({x},{y}) lezy na poczatku ukladu wspolrzednych")
+

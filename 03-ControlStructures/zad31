@@ -1,0 +1,4 @@
+import random
+for x in range(21):
+    t=random.randrange(5,10)
+    print(t, end=" ")

@@ -1,0 +1,20 @@
+b=float(input('Wprowadz swoje punkty'))
+
+def computegrade(a):
+    a=float(a)
+    if a<=1 and a>=0.9:
+        print("A")
+    if a <0.9 and a>=0.8:
+        print("B")
+    if a<0.8 and a>=0.7:
+        print("C")
+    if a<0.7 and a>=0.6:
+        print("D")
+    if a<0.6 and a>=0:
+        print('F')
+    else:
+        print('Nieprawidlowa wartosc')
+    
+
+c=computegrade(b)
+print(c)

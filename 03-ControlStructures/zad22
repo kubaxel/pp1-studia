@@ -1,0 +1,9 @@
+for liczby in range(1,31,1):
+    if liczby%3==0:
+        print("Three")
+    elif liczby%5==0:
+        print("Five")
+    elif liczby%5==0 and liczby%3==0:
+        print("bingo")
+    else:
+        print(liczby)

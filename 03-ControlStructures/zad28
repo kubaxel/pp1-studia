@@ -1,0 +1,12 @@
+x=int(input('Wprowadz jak dlugi chcesz otrzymac ciag'))
+
+for y in range(1,x):
+    for m in range(y):
+        if x==0:
+            print(0)
+        if x==1:
+            print("1")
+        if x==2:
+            print(2)
+        else:
+            print((x-1)+(x-2))
