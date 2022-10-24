@@ -1,0 +1,5 @@
+def multiplication(x,y):
+    c=x*y
+    print(c)
+
+multiplication(3,5)
