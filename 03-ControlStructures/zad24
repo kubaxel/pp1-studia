@@ -1,7 +1,8 @@
-for x in (0,10):
-    for y in (0,x+1):
-        if x<=5:
-            print("*", end="")
-        else:
-            print
+for x in range(4):
+    for y in range(x+1):
+        print("*", end="")
+    print()
+for x in range(5,0,-1):
+    for y in range(x):
+        print("*", end="")
     print()

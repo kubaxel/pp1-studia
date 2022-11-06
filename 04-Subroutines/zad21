@@ -1,0 +1,1 @@
+wieksze= lambda x,y: if x>y: print(True) else:print(False)

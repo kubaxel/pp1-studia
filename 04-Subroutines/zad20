@@ -1,0 +1,4 @@
+def power(x,n):
+    t=x**n
+    print(t)
+power(5,3)

@@ -1,0 +1,4 @@
+def f(card_number):
+    b=card_number[:2]+"**********"+card_number[14:]
+    return b
+f("5290312400019022")
