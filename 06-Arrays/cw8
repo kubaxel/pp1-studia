@@ -1,0 +1,13 @@
+a=[-15,8,-31,47,-2,19]
+max=a[0]
+min=a[0]
+
+if len(a)>0:
+    for i in a:
+        if i>max:
+            max=i
+        if i<min: 
+            min=i
+print(min)
+print(max)
+    
