@@ -1,0 +1,10 @@
+fhand=(input('Wprowadz nazwe pliku ktory chcesz otworzyc'))
+
+try:
+    open(fhand)
+    
+except:
+    if fhand==('trele morele'):
+        print('jeblo cie')
+        quit()
+    print('Nie da sie otworzyc tego pliku')

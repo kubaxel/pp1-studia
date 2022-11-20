@@ -1,0 +1,5 @@
+a=[2,4,6,8,9]
+
+for x in range(0,len(a)):
+    a[x]=a[x]**2
+print(a)

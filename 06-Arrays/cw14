@@ -1,0 +1,18 @@
+a=[
+    [True,False],
+    [True,True],
+    [False,False]
+    ]
+
+for i in a:
+    for x in i:
+        if x:
+            x=False
+        else:
+            x=True
+        print(x,end=' ')
+    print()
+a=list[x]
+print(a)
+
+        

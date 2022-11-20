@@ -1,0 +1,6 @@
+a=[12,6,4,9,10]
+
+for x in a:
+    y=x
+    gwiazdki=y*"* "
+    print(f'{y}: {gwiazdki}')

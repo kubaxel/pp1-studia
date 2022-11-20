@@ -1,0 +1,12 @@
+fhand=open('mbox-short.txt')
+licznik=0
+total=0
+for line in fhand:
+    if line.startswith('X-DSPAM-Confidence:'):
+        licznik=licznik+1
+        e=(line.strip()[20:])
+        f=float(e)
+        total=total+f
+        
+srednia=total/licznik
+print(srednia)

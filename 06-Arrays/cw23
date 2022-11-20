@@ -1,0 +1,9 @@
+def bubblesort(arr):
+    for i in range(len(arr)):
+        for j in range(len(arr)):
+            if arr[i]>arr[j]:
+                t=arr[j]
+                arr[i]=arr[j]
+                arr[j]=t
+d=[1,5,3]
+print(bubblesort(d))

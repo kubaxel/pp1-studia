@@ -1,0 +1,8 @@
+a=[15, 8, 31, 47, 2, 19]
+suma=0
+y=0
+for x in a:
+    y=y+x
+    t=len(a)
+srednia=y/t
+print(srednia)

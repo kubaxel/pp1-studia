@@ -1,0 +1,11 @@
+def chop(t):
+    del t[0]
+    del t[-1]
+def middle(t):
+    del t[0]
+    del t[-1]
+    print(t)
+
+p=[1,2,3,4,5,6]
+
+middle(p)

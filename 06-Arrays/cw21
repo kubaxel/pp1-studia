@@ -1,0 +1,20 @@
+a= ["water","book","sky"] 
+a1= ["water","book","sky"] 
+
+b=[True,False]
+b1=[True,False,True]
+
+c=[5,3,1]
+c1=[5,3,1]
+
+d=[3,2,1]
+d1=[3,2]
+
+def compare(arr1,arr2):
+    if len(arr1)==len(arr2) and (arr1[0:])==(arr2[0:]):
+        wynik=True
+        print(wynik)
+    else:
+        wynik=False
+        print(wynik)
+compare(d,d1)
