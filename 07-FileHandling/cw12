@@ -1,0 +1,9 @@
+a=str(input('Dodaj rzecz do listy'))
+
+f=open('lista.txt','a')
+
+
+f.write(f'{a}\n')
+
+
+f.close()

@@ -1,0 +1,6 @@
+fhand=open('numbers.txt','r')
+
+y=0
+for i in fhand:
+    y=y+int(i)
+print(y)

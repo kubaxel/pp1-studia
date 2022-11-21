@@ -1,0 +1,8 @@
+a=['Adam', 'Marcin', 'Filip', 'Tomek', 'Kacper']
+
+f=open('test.txt','w')
+
+for i in a:
+    f.write(i)
+    f.write('\n')
+f.close()

@@ -1,0 +1,5 @@
+fhand=open('countries.txt')
+
+x=fhand.read()
+
+print(x)

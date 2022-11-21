@@ -1,0 +1,12 @@
+f=open('test.txt','w')
+
+l1='Jakub\n'
+l2='Otto\n'
+l3='uek\n'
+l4='informatyka\n'
+
+f.write(l1)
+f.write(l2)
+f.write(l3)
+f.write(l4)
+f.close()
