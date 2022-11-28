@@ -1,0 +1,16 @@
+import json
+
+a={
+    "tytul":"Harry Potter",
+    "Rok_Wydania":2000,
+    "Oprawa":"Miekka",
+    "Kolor":"Niebieski",
+    "Nowa":True,
+}
+
+b=open('favourite.json','w')
+
+json.dump(a,b,indent=10)
+
+b.close()
+    

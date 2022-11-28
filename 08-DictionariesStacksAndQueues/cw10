@@ -1,0 +1,12 @@
+a=[
+    {"Country":"Niemcy", "Populacja":123123},
+    {"Country":"Polska", "Populacja":243424},
+    {"Country":"Rosja","Populacja":123123},
+    {"Country":"Litwa", "Populacja":1234567},
+    {"Country":"Rosja", "Populacja":345345},
+]
+c=0
+while c<len(a):
+    for key,value in a[c].items():
+        print(key,":",value)
+    c=c+1

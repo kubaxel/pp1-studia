@@ -1,0 +1,16 @@
+a= {
+    "marka": "nokia",
+    "rok": 2022,
+    "model":"3s",
+    "kolor":["czerwony","niebieski"],
+    "waga": 500,
+    "gwarancja":True,
+}
+
+
+for j,i in a.items():
+    print(j,":",i)
+
+for items in a.items():
+    print(items)
+
