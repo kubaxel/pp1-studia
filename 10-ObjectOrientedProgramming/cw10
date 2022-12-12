@@ -1,0 +1,27 @@
+class TV():
+    def __init__(self):
+        self.is_on=False
+        self.channel_no=1
+    
+    def set_channel(self,x):
+        self.channel_no=x
+
+    
+    def turn_on(self):
+        self.is_on=True
+    
+    def turn_off(self):
+        self.is_on=False
+    
+    def show_status(self):
+        if self.is_on==True:
+            print(f"TV is on, channel {self.channel_no}")
+        if self.is_on==False:
+            print("TV is off")
+
+tv=TV()
+
+tv.turn_on()
+tv.show_status()
+tv.set_channel(4)
+tv.show_status()
