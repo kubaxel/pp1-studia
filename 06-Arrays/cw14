@@ -4,15 +4,12 @@ a=[
     [False,False]
     ]
 
-for i in a:
-    for x in i:
-        if x:
-            x=False
-        else:
-            x=True
-        print(x,end=' ')
-    print()
-a=list[x]
-print(a)
+for x,row in enumerate(a):
+    for j, col in enumerate(row):
+        if col:
+            a[x][j]=False
+        if not col:
+            a[x][j]=True
 
-        
+
+ 

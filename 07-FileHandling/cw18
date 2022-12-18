@@ -1,0 +1,10 @@
+lista=open('listazakupow.txt','a')
+
+with open('MeatAndFish.txt') as jeden:
+    for lines in jeden:
+        lista.write(lines)
+    lista.write('\n')
+with open('GrainsAndBread.txt','r') as dwa:
+    for lines in dwa:
+        lista.write(lines)
+

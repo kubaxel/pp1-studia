@@ -1,0 +1,16 @@
+import re
+
+f=open('grades.txt','r')
+
+a= re.findall(r'\d.\d',f.read())
+
+b=0
+total=0
+for i in a:
+    total+=1
+    c=float(i)
+    b=b+c
+
+    srednia=b/total
+
+print(srednia)

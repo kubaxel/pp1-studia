@@ -1,0 +1,7 @@
+import random
+
+f=open('los.txt','a')
+
+for x in range(50):
+    b=str(random.randint(100,999))
+    f.write(b+'\n')

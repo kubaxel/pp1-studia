@@ -1,0 +1,8 @@
+f=open('potegi.txt','a')
+
+for x in range(10):
+    a=x
+    b=x**2
+    c=x**3
+
+    f.write(f'{a} {b} {c} \n')

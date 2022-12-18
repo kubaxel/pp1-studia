@@ -1,0 +1,8 @@
+import csv
+
+with open('students.txt',newline='') as f:
+    reader=csv.DictReader(f)
+    for row in reader:
+        b=int(row['age'])
+        if b<30:
+            print(row['first_name'], row['last_name'], row['email'])

@@ -1,0 +1,5 @@
+f=open('liczby.txt','a')
+
+for x in range(50):
+    c=str(x)
+    f.write(c+'\n')

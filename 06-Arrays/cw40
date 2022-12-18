@@ -1,0 +1,12 @@
+a=[
+    [-38, 19], 
+    [5,40],
+    [-7,11],
+    [29,16]
+    ] 
+b=len(a)
+d=0
+
+for i in range(b):
+    for j in range(len(a[i])):
+        

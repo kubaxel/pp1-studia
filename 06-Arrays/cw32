@@ -1,0 +1,7 @@
+a=[5,4,3,2,6,5]
+
+string= ''
+for x in a:
+    c=str(x)
+    string=string+c+','
+print(string[:-1])

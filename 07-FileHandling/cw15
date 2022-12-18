@@ -1,0 +1,15 @@
+b=open('test.txt', 'r')
+
+c=0
+
+for num,line in enumerate(b,1):
+    print (num)
+    print(line)
+    if num%5==0:
+        try:
+            d=input('Nacisnij zeby isc dalej')
+        except:
+            break
+
+
+    

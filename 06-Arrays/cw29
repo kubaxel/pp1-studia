@@ -1,0 +1,6 @@
+a=[1,2,3,4,67,6,7,8,9]
+b=int(input('Wprwoadz'))
+
+for i in a:
+    if i>b:
+        print(i)

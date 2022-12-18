@@ -1,0 +1,8 @@
+a=[5,1,9,9,6,1]
+
+b=max(a)
+c=min(a)
+
+v= b-c
+
+print(v)

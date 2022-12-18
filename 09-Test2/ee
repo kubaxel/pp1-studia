@@ -1,0 +1,13 @@
+def f():
+    import re
+    with open('test.txt', encoding='utf-8') as f:
+
+        for line in f:
+            if(re.match('.*m.*',line)):
+                print(line)
+            else:
+                break
+            
+           
+        
+f()

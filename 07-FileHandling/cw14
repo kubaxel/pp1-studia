@@ -1,0 +1,7 @@
+file=open(input('Wprowadz'))
+a=0
+for line in file:
+    a=a+1
+print(a)
+
+file.close()

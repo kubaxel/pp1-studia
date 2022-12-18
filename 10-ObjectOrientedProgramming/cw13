@@ -3,9 +3,18 @@ class TV():
         self.is_on=False
         self.channel_no=1
         self.channels=[]
+        self.volume=0
     
     def set_channel(self,x):
         self.channel_no=x
+    
+    def increase_vol(self):
+        if self.volume<10:
+            self.volume+=1
+
+    def decrease_vol(self):
+        if self.volume>0:
+            self.volume-=1
 
     def set_channels(self,channels_list):
         for x in channels_list:
@@ -23,9 +32,9 @@ class TV():
     def show_status(self):
         if self.is_on==True:
             if self.channel_no>len(self.channels):
-                print(f'TV is on, channel {self.channel_no}')
+                print(f'TV is on, channel {self.channel_no}, volume is: {self.volume}')
             if self.channel_no<=len(self.channels):
-                print(f'TV is on, channel {self.channel_no} ({self.channels[self.channel_no-1]})')
+                print(f'TV is on, channel {self.channel_no} ({self.channels[self.channel_no-1]}), volume is: {self.volume}')
         if self.is_on==False:
             print("TV is off")
 
@@ -33,7 +42,11 @@ tv=TV()
 
 tv.turn_on()
 tv.show_status()
+tv.increase_vol()
+tv.increase_vol()
+tv.increase_vol()
 tv.set_channel(4)
 tv.set_channels(['tvp1','tvp2','polsat','eoeoeo','123'])
-tv.show_channels()
 tv.show_status()
+tv.decrease_vol()
+tv.show_status()    

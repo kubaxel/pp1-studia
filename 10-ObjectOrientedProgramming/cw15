@@ -1,0 +1,28 @@
+class Temp():
+    import random
+    def __init__(self):
+        self.ison=False
+        self.temper=0
+
+    def measure(self):
+        if self.ison:
+            x=self.random.randrange(34,42)
+            
+            if x<37:
+                print(f'Temperature is {x}')
+
+            if x>=37 and x<41:
+                print(f'Temperature is {x} (fever)')
+            if x>=41:
+                print(f'Temperature is {x} (CRITICAL)')
+    
+    def turn_on(self):
+        self.ison=True
+
+    def turn_off(self):
+        self.ison=False
+
+a=Temp()
+
+a.turn_on()
+a.measure()

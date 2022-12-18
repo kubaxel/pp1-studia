@@ -1,0 +1,14 @@
+a= [
+[0,0,0,0,0],
+[0,0,0,0,0],
+[0,0,0,0,0],
+[0,0,0,0,0],
+[0,0,0,0,0],
+] 
+
+a=[[i*j for j in range(1,10)] for i in range(1,10)]
+
+for k in a:
+    for h in k:
+        print(h,end='  ')
+    print()

@@ -42,4 +42,4 @@ arr14=[
     [False,False],
 ]
 
-print(arr6)
+print(arr9)

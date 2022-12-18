@@ -1,0 +1,9 @@
+def rand_elem():
+    import random
+    c=[]
+    b=random.randint
+    print(b)
+    for i in range(10):
+        c.append(b)
+    
+rand_elem()

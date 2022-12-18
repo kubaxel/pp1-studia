@@ -1,0 +1,14 @@
+
+def f(g,n1,n2):
+
+    import csv
+    with open('test.csv') as f:
+        sum=0
+        data=csv.DictReader(f)
+        for i in data:
+            wiek=int(i['age'])
+            if i['gender']==g and wiek>n1 and wiek<n2:
+                sum+=1
+        print(sum)
+            
+f('Female',10,50)

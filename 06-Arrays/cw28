@@ -1,0 +1,14 @@
+def median(a):
+    c=len(a)
+    if c%2//2!=0:
+        v=c//2
+        v=v+1
+        m=a[v]
+        print(m)
+    if c%2//2==0:
+        v=(c//2)-1
+        h=v+1
+        j=(a[v]+a[h])//2
+        print(j)
+        
+median([6,8,3,5,1,0])

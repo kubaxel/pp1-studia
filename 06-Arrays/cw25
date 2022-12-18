@@ -1,0 +1,6 @@
+def f(number,array):
+    if number in array:
+        print(True)
+    else:
+        print(False)
+f(23,[15,38,14])

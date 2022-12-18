@@ -1,0 +1,9 @@
+a=[4,2,8,4,7,9,5]
+v=[]
+b=max(a)
+c=min(a)
+
+v.append(c)
+v.append(b)
+
+print(v)

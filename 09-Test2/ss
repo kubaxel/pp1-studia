@@ -1,0 +1,13 @@
+import re
+def f3(t):
+    sum=0
+    x= re.findall(r"\b\d{2,3}\b", t)
+    
+
+    for i in x:
+        sum+=int(i)
+    return(sum)
+
+    
+
+print(f3("Przykładowe liczby parzyste 16, 2, 114 oraz 1014, a także 8"))

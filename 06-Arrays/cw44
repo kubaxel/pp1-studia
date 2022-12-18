@@ -1,0 +1,15 @@
+a=[
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+    ]
+
+for row in a:
+    print(row)
+
+wynik= [[a[j][i] for j in range(len(a))]for i in range(len(a[0]))]
+print()
+print()
+print()
+for x in wynik:
+    print(x)

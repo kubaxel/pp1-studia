@@ -1,0 +1,10 @@
+a=[
+    [2,3],
+    [1,5],
+]
+b=[]
+for x in a:
+    for i in x:
+        b.append(i)
+a=b
+print(a)

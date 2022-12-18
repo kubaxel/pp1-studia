@@ -1,0 +1,7 @@
+from ad14 import Ebook
+
+a=Ebook()
+
+a.next_page()
+
+a.ebook_info()

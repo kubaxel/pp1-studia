@@ -1,0 +1,37 @@
+class bank():
+    def __init__(self):
+        import random
+        self.bal=0
+        self.bank_no=0
+        self.acc_exist=False
+
+    def create_acc(self,x):
+        self.bank_no=x
+        self.acc_exist=True
+
+    def display_bal(self):
+        if self.acc_exist:
+            print('Balance is: {self.bal}')
+    
+    def deposit(self,x):
+        if self.acc_exist:
+            self.bal+=x
+
+    def withdraw(self,x):
+        if self.acc_exist:
+            if self.bal>x:
+                self.bal-=x
+
+    def bank_info(self):
+        if self.acc_exist:    
+            print(f'Bank account No: {self.bank_no}\nBalance: PLN {self.bal}')
+
+
+a=bank()
+
+a.create_acc('12 3456 5555 9090 1111 0000 7722')
+a.deposit(14)
+a.withdraw(16)
+a.bank_info()
+
+

@@ -1,0 +1,11 @@
+import re
+
+a='To be, or not to be, that is the question'
+
+vowels=re.findall(r'[aoeiouy]',a)
+
+b=0
+
+for i in vowels:
+    b=b+1
+print(f'Samoglosek jest: {b}')

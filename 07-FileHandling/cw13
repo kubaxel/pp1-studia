@@ -1,0 +1,7 @@
+f= open('test.txt','r')
+
+with open('test.txt') as file:
+    data=file.readlines()
+    for line in data:
+        print(line,end='')
+f.close()

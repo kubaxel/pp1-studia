@@ -1,0 +1,14 @@
+a=[5,1,9,9,9,6,1]
+p=0
+
+def f(x):
+    b=[]
+    for i in x:
+        if i not in b:
+            b.append(i)
+    b.sort()
+    print(b[-2])
+
+
+
+f(a)

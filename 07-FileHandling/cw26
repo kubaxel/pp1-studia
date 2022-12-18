@@ -1,0 +1,9 @@
+import re
+
+f=open('cw26.txt','r')
+
+wyrazy= re.findall(r'\w+',f.read())
+
+for i in wyrazy:
+    if len(i)>6:
+        print(i)

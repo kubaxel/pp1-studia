@@ -1,0 +1,4 @@
+
+with open('test.txt','r') as first, open('test2.txt','a') as second:
+    for line in first:
+        second.write(line)

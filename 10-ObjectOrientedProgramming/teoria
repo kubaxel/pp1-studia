@@ -1,0 +1,31 @@
+function Projekt2
+a=[5 -1 0 1 1; -1 8 3 -1 2; 0 3 9 0 -2; 1 -1 0 10 3; 1 2 -2 3 13]
+lambda=eig(a)
+ylambda=zeros(length(lambda))
+plot(lambda,ylambda,'ro','Markersize',7)
+hold on 
+axis equal
+twierdzenieGerszgorina(a)
+
+end %function
+
+function twierdzenieGerszgorina(a)
+n=diag(a)
+m=size(a)
+for i=1:m
+    r(i)=0;
+    for j=1:m
+        if i~=j
+            r(i)=r(i)+abs(a(i,j));
+        end
+    end
+    kolor=rand(1,3)
+    xr=linspace(n(i)-r(i), n(i)+r(i),201);
+    yr=sqrt(r(i)^2-(xr-n(i)).^2);
+    plot (xr, yr, 'Color', kolor);
+    yr=-sqrt(r(i)^2-(xr-n(i)).^2);
+    plot (xr, yr, 'Color', kolor);
+end
+zakres=xlim;
+plot([zakres(1),zakres(2)],[0,0], ':k') %wszystko w jednym kolorze
+end %function
