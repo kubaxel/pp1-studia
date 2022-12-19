@@ -1,0 +1,32 @@
+class Arrays():
+
+    @staticmethod
+    def create_arr(number_of_elements, value_of_elements):
+        a=[]
+        for x in range(number_of_elements):
+            a.append(value_of_elements)
+        return(a)
+
+    @staticmethod
+    def create_random(number_of_elements, number_from, number_to):
+        import random
+        a=[]
+        for h in range(number_of_elements):
+            x=random.randrange(number_from,number_to)
+            a.append(x)
+        return a
+
+    @staticmethod
+    def from_to_arr(array, value_from, value_to):
+        licznik=0
+        for i in array:
+            if i>=value_from and i<=value_to:
+                licznik+=1
+        return licznik
+
+
+print(Arrays.create_arr(5,2))
+print(Arrays.create_random(10,2,10))
+a=Arrays.create_random(10,0,15)
+print(a)
+print(Arrays.from_to_arr(a,5,10))

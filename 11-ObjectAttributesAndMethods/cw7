@@ -1,0 +1,28 @@
+class Student():
+
+    uczelnia="UEK Krakow"
+    numerid=1000
+    
+    def __init__(self,name,surname,field):
+        self.name=name
+        self.surname=surname
+        self.id=Student.numerid
+        self.field=field
+        Student.numerid=Student.numerid+1
+    
+    def __str__(self):
+        return f"{self.name} {self.surname} ({self.id}), {self.field}, {Student.uczelnia}"
+
+
+
+a=Student("Anna","Maj","Applied Informatics")
+
+print(a)
+
+b=Student('Jan','Kowalski','Applied Informatics')
+
+print(b)
+
+d=Student('Patryk','Skowyra', 'Applied Informatics')
+
+print(d)
